@@ -11,7 +11,7 @@ import os
 import signal
 
 user_attacks = {}
-bot_token = '7542511452:AAE5s9jOmvTB0kLSE2EYwg-IyRAxUIhzNik'
+bot_token = '7476904793:AAEMQm39nDIepVlVP4t9cqqYHLaLbaeBQMo'
 proxy_api_url = 'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http,socks4,socks5&timeout=500&country=all&ssl=all&anonymity=all'
 
 proxy_iterator = None
@@ -57,7 +57,7 @@ def rotate_proxy(sent_message):
 
 bot = telebot.TeleBot(bot_token)
 
-ADMIN_ID = 1051815609
+ADMIN_ID = 5464427719
 
 def load_data():
     try:
