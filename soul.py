@@ -243,10 +243,10 @@ def process_attack(message):
         attack_time = int(command_parts[2])
 
         if not check_key_expiration(user_id):
-            bot.reply_to(message, "🚫 Your subscription has expired or is invalid.")
+            bot.reply_to(message, "🚫 Your subscription has expired or is invalid DM TO BUY NEW @Felixbbyy 🌹💋.")
             return
 
-        response = f"@{username}\n⚡ ATTACK STARTED ⚡\n\n🎯 Target: {target}\n🔌 Port: {port}\n⏰ Time: {attack_time} Seconds\n🛡️ Proxy: RUNNING ON SOUL SERVER \n"
+        response = f"@{username}\n⚡ ATTACK STARTED ⚡\n\n🎯 Target: {target}\n🔌 Port: {port}\n⏰ Time: {attack_time} Seconds\n🛡️ Proxy: RUNNING ON FELIX BABY SERVER \n"
         sent_message = bot.reply_to(message, response)
         sent_message.target = target
         sent_message.port = port
@@ -307,7 +307,7 @@ def update_remaining_time(attack_time, sent_message):
     for remaining in range(attack_time, 0, -1):
         if sent_message.time_remaining > 0:
             sent_message.time_remaining = remaining
-            new_text = f"🚀⚡ ATTACK STARTED⚡🚀\n\n🎯 Target: {sent_message.target}\n🔌 Port: {sent_message.port}\n⏰ Time: {remaining} Seconds\n🛡️ Proxy: RUNNING ON SOUL SERVER\n"
+            new_text = f"🚀⚡ ATTACK STARTED⚡🚀\n\n🎯 Target: {sent_message.target}\n🔌 Port: {sent_message.port}\n⏰ Time: {remaining} Seconds\n🛡️ Proxy: RUNNING ON FELIX BABY SERVER\n"
             
             if new_text != last_message_text:
                 try:
