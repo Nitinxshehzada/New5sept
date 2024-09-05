@@ -47,7 +47,7 @@ def rotate_proxy(sent_message):
                 'https': f'https://{new_proxy}'
             }
             if sent_message.time_remaining > 0:
-                new_text = f"🚀⚡ ATTACK STARTED⚡🚀\n\n🎯 Target: {sent_message.target}\n🔌 Port: {sent_message.port}\n⏰ Time: {sent_message.time_remaining} Seconds\n🛡️ Proxy: RUNNING ON ROXZ SERVER\n"
+                new_text = f"🚀⚡ ATTACK STARTED⚡🚀\n\n🎯 Target: {sent_message.target}\n🔌 Port: {sent_message.port}\n⏰ Time: {sent_message.time_remaining} Seconds\n🛡️ Proxy: RUNNING ON FELIX BABY SERVER\n"
                 try:
                     bot.edit_message_text(new_text, chat_id=sent_message.chat.id, message_id=sent_message.message_id)
                 except telebot.apihelper.ApiException as e:
